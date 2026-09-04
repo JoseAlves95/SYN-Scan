@@ -2,7 +2,7 @@
 
 Esse programa faz um scan das portas desejadas de um computador e permite saber quais portas estão abertas usando a biblioteca de manipulação de pacotes Scapy.
 
-## Instalacao
+## Instalação
 
 Recomendo que crie um ambiente virtual python para instalar o Scapy.
 
@@ -34,5 +34,5 @@ sudo python3 synScan.py
 O programa vai mostrar todas as respostas das portas selecionadas. Procure pela flag da resposta na área ###[ TCP ]###, se for RA a porta esta fechada, se for SA está aberta.
 Por ultimo, na ultima linha, mostrará uma lista das portas abertas.
 
-## Atencao
+## Atenção!
 O uso desse código para fins maliciosos é completamente proibido. Ele foi feito com propositos acadêmicos e deve permanecer com esse propósito.
