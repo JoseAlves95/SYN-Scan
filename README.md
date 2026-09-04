@@ -1,6 +1,6 @@
 # SYN Scan
 
-Esse programa faz um scan das portas desejadas de um computador e permite saber quais portas estao abertas usando a biblioteca de manipulacao de pacotes Scapy.
+Esse programa faz um scan das portas desejadas de um computador e permite saber quais portas estão abertas usando a biblioteca de manipulação de pacotes Scapy.
 
 ## Instalacao
 
@@ -15,7 +15,7 @@ pip install scapy
 
 ## Como usar
 
-Procure no programa a variavel "ip", "porta_inicio" e "porta_fim" e digite, respectivamente o IP alvo do seu scan, a porta de onde o scan comecara e a de onde ele terminara.
+Procure no programa a variavel "ip", "porta_inicio" e "porta_fim" e digite, respectivamente o IP alvo do seu scan, a porta de onde o scan começará e a de onde ele terminará.
 
 ```python
 # Exemplo
@@ -31,8 +31,8 @@ sudo python3 synScan.py
 ```
 
 ## O que esperar quando rodar:
-O programa vai mostrar todas as respostas das portas selecionadas. Procure pela flag da resposta na area ###[ TCP ]###, se for RA a porta esta fechada, se for SA esta aberta.
-Por ultimo, na ultima linha, mostrara uma lista das portas abertas.
+O programa vai mostrar todas as respostas das portas selecionadas. Procure pela flag da resposta na área ###[ TCP ]###, se for RA a porta esta fechada, se for SA está aberta.
+Por ultimo, na ultima linha, mostrará uma lista das portas abertas.
 
 ## Atencao
-O uso desse codigo para fins maliciosos e completamente proibido. Ele foi feito para propositos academicos e deve permanecer com esse proposito.
+O uso desse código para fins maliciosos é completamente proibido. Ele foi feito com propositos acadêmicos e deve permanecer com esse propósito.

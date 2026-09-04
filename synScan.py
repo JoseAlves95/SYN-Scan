@@ -32,7 +32,7 @@ def synScan(ip, port):
 
     return resposta.show()
 
-ip = "192.168.18.112"
+ip = "192.168.18.112"  
 porta_inicio = 1
 porta_fim = 443
 
